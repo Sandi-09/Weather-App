@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+body {
+	background-image: url("rain.jpg");
+	height: 100vh;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-size: cover;
+}
+
+.app-main {
+	width: 50vh;
+	margin: 100px auto;
+	background-color: #c2cfce;
+	padding: 20px;
+	text-align: center;
+}
+.app-main > * {
+	margin-bottom: 20px;
+}
+
+.input-box {
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+	border: none;
+	outline: none;
+	color: rgba(223, 107, 72, 0.705);
+	font-size: 1.3rem;
+	font-weight: lighter;
+	height: 50px;
+	border-radius: 5px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.input-box:focus {
+	background-color: aliceblue;
+}
+
+.weather-body {
+	display: none;
+	color: rgb(206, 73, 113);
+	padding: 25px;
+	line-height: 2rem;
+	border-radius: 10px;
+	background-color: #dfdfdf;
+	height: 50vh;
+}
+.location-details {
+	font-weight: bold;
+}
+
+.weather-status {
+	padding: 25px;
+	margin: 5px 10px;
+}
+
+.temp {
+	font-size: 50pt;
+	font-weight: 700;
+	margin: 20px 0;
+	text-shadow: 2px 4px rgb(134, 134, 134);
+}
+
+.min-max,
+.weather {
+	font-size: 13px;
+	font-weight: 600;
+}
